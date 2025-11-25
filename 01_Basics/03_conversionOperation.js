@@ -20,7 +20,20 @@ let stringnumber=33
 
 let snumber=String(stringnumber)
 
-console.log(typeof snumber);
+//console.log(typeof snumber);
 
+//********************OPERATION******************
+
+let value =33
+let megvalue=-value
+// console.log(megvalue);
+
+// console.log("1" + 2);
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+//console.log(+true) // return==>1
+//console.log(+"") // return==>0
 
 
