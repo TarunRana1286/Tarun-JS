@@ -32,5 +32,33 @@ const myFunction = function () {
     console.log("Hello World");
 }
 
-console.log(typeof hero);
+//console.log(typeof hero);
 //https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html
+
+//++++++++++++++++++++++++++++++++++++++++/++
+
+// Memory Section//
+
+// Heap(Non Primitive) , Stack (Primitive) //
+
+let myname ="Tarun Rana"
+
+let myAnothername=myname;
+
+myAnothername="Rana"
+
+console.log(myname);
+console.log(myAnothername);
+
+let userone ={
+ Email:"tarun@test.com",
+ upi:"tarun@okicici"
+}
+
+let usertwo=userone
+
+usertwo.Email="tarun@rana.com"
+
+console.log(userone.Email);
+console.log(usertwo.Email);
+
