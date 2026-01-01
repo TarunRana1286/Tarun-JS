@@ -36,4 +36,10 @@ let megvalue=-value
 //console.log(+true) // return==>1
 //console.log(+"") // return==>0
 
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter);
+// Link to Study
+// https://tc39.es/ecma262/multipage/abstract-operations.html
+
 
