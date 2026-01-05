@@ -1,0 +1,43 @@
+// Arrays //
+
+const myArray = [0,1,2,3,4,5]
+const myHeros = ["Tarun","Rana","Vadodara"]
+
+const myArr2 = new Array(2,4,6,8,10)
+//console.log(myArray[1]);
+// console.log(myArray[1]);
+// console.log(myArray[1]);
+
+
+// Array Methods //
+
+// myArray.push(6);
+// myArray.push(76);
+// myArray.pop()
+
+//myArray.unshift(9)
+//myArray.shift()
+
+// console.log(myArray.includes(9));
+
+// console.log(myArray.indexOf(9));
+// console.log(myArray.indexOf(3));
+
+const newarr =myArray.join();
+// console.log(myArray);
+// console.log(newarr);
+
+//SLICE -- SPLICE //
+
+console.log("A" , myArray);
+
+const myn1 = myArray.slice(1,3)
+console.log(myn1);
+console.log("B", myArray);
+
+const myn2 = myArray.splice(1,3)
+console.log("C", myArray);
+console.log(myn2);
+
+
+
