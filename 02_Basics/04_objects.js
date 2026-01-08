@@ -55,4 +55,18 @@ const users =[
 console.log(whatsapp.hasOwnProperty('isLoggedIn'));
 
 
+// Object Destructuring
+const cource = {
+    courceName : "My JS Journey",
+    price : "999",
+    instructor : "Tarun Rana"
+}
+
+const {instructor} = cource
+const {instructor : Tutor} = cource
+
+console.log(instructor);
+console.log(Tutor);
+
+
 
