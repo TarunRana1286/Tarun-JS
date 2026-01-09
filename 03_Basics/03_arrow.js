@@ -30,11 +30,13 @@ const chai = () =>{
 }
 //chai()
 
-// const addtwo = (num1, num2) =>{  Arrow Function
+// const addtwo = (num1, num2) =>{  Arrow Function with explicit return
 //    return num1 + num2
 // }
 
-const addtwo = (num1, num2) => num1 + num2 // Implicit Return
+//const addtwo = (num1, num2) => num1 + num2 // Implicit Return arrow function
+
+const addtwo = (num1, num2) => ({username :"Tarun"}) // Implicit Return arrow function object retun
 
 
 console.log(addtwo(3,12));
