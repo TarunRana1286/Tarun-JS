@@ -52,9 +52,9 @@ result2 - undefined
 
 // Execution Phase Result 1//
 
-val1 - 10
-val2 - 20
-addnum - New variable environment + Execution Thread
+//val1 - 10
+//val2 - 20
+///addnum - New variable environment + Execution Thread
  
 // Memory Phase //
 
@@ -69,3 +69,5 @@ num2 - 20
 total - 30
 
 // AGAIN SAME PROCESS FOR RESULT 2
+
+//global execution process follows the LIFO concept
