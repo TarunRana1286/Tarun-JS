@@ -50,7 +50,7 @@ addnum - undefined
 result1 - undefined
 result2 - undefined
 
-// Execution Phase //
+// Execution Phase Result 1//
 
 val1 - 10
 val2 - 20
@@ -67,3 +67,5 @@ total - undefined
 num1 - 10
 num2 - 20
 total - 30
+
+// AGAIN SAME PROCESS FOR RESULT 2
