@@ -21,3 +21,8 @@
     console.log(`Rana Tarun ${lastname}`);
 } 
 )('Parso')
+
+
+// After this JS Execution Concept
+
+// {} Global EC eg. (this)
