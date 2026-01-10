@@ -39,3 +39,31 @@ function addnum(val1,val2){
 
 let result1 = addnum(val1,val2)
 let result2 = addnum(10,5)
+
+// Global Execution  ==> this
+
+// Memory Phase //
+
+val1 - undefined
+val2 - undefined
+addnum - undefined
+result1 - undefined
+result2 - undefined
+
+// Execution Phase //
+
+val1 - 10
+val2 - 20
+addnum - New variable environment + Execution Thread
+ 
+// Memory Phase //
+
+val1 - undefined
+val2 - undefined
+total - undefined
+
+// Execution Context //
+
+num1 - 10
+num2 - 20
+total - 30
