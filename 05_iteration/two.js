@@ -13,3 +13,10 @@ while (arr  < myarray.length) {
     arr = arr + 1
     
 }
+
+let score = 16
+do {
+    console.log(`Score is ${score}`);
+    score++
+    
+} while (score <= 15);
