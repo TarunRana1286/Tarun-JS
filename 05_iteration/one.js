@@ -26,3 +26,23 @@ for (let index = 0; index < myarray.length; index++) {
     
     
 }
+
+// break and continue
+
+// for (let index = 1; index <= 20; index++) {
+//     if(index ==5){
+//         console.log(`5 Detected`);
+//         break;
+//     }
+//     console.log(`Value of I is ${index}`);
+    
+// }
+
+for (let index = 1; index <= 20; index++) {
+    if(index ==5){
+        console.log(`5 Detected`);
+        continue;
+    }
+    console.log(`Value of I is ${index}`);
+    
+}
