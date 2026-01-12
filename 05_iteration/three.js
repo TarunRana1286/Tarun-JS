@@ -26,4 +26,4 @@ for (const greet of greetings) {
 
 const map = new Map()
 
-map
+//The Map object holds key-value pairs and remembers the original insertion order of the keys.
