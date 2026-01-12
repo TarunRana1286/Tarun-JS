@@ -27,3 +27,20 @@ for (const greet of greetings) {
 const map = new Map()
 
 //The Map object holds key-value pairs and remembers the original insertion order of the keys.
+
+map.set('IN',"India")
+map.set('CH',"China")
+map.set('JP',"Japan")
+map.set('NZ',"New Zealand")
+map.set('IN',"India")
+
+//console.log(map);
+
+for (const key of map) { // this for of loop will give response in Array
+ console.log(key);
+}
+
+for (const [key,value] of map) { //  this loop will destructure the array
+ console.log(key , ':-', value);
+}
+
