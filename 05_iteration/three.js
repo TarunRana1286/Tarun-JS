@@ -44,3 +44,15 @@ for (const [key,value] of map) { //  this loop will destructure the array
  console.log(key , ':-', value);
 }
 
+
+
+// FOR OF SYTANCT WON't WORK FOR OBJECTS as IT IS not iteratable
+// const myObject = {
+//     'game1' :'NFS',
+//     'game2' :'GTA'
+// }
+
+// for (const [key,Value] of myObject) {
+//     console.log(key, ': - ', Value);
+    
+// }
