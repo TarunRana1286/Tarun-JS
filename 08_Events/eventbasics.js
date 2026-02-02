@@ -1,1 +1,1 @@
-//Need to Start
+console.log("Getting started with event");
